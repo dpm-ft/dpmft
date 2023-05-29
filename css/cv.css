@@ -1,0 +1,96 @@
+#cv {
+  flex: 2;
+  padding: 0 7%;
+  border-right: 1px solid #bbb;
+}
+#kotak {
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+
+#kotak h2 {
+  font-weight: bold;
+  color: #4e927f;
+}
+
+.sambutan {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.sambutan h5 {
+  font-size: 16px;
+  text-align: center;
+  color: #4e927f;
+}
+.gambar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #4e927f;
+}
+.gambar img {
+  width: 100%;
+}
+.text {
+  color: #222;
+  text-align: center;
+  margin-top: 0px;
+}
+.text h3 {
+  color: #4e927f;
+}
+.media {
+  width: 150px;
+  justify-content: space-evenly;
+  display: flex;
+}
+.media img {
+  width: 20px;
+}
+
+/* media queries */
+
+/* laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* tablet */
+@media (max-width: 758px) {
+  html {
+    font-size: 62%;
+  }
+  #cv {
+    border: none;
+  }
+  .sambutan h5 {
+    font-size: 14px;
+  }
+  .sambutan p {
+    font-size: 12px;
+  }
+  .gambar {
+    width: 150px;
+    height: 150px;
+  }
+  .media img {
+    width: 15px;
+  }
+}
+
+/* mobile */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}

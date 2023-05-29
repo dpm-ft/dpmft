@@ -1,0 +1,25 @@
+.struktur .gambar-blog {
+  text-align: left;
+}
+.struktur .gambar-blog p {
+  margin-bottom: 150px;
+}
+.struktur .gambar-blog img {
+  width: 300px;
+}
+.struktur p {
+  margin: 10px 0px;
+}
+.artikel {
+  font-size: 14px;
+}
+.publikasi {
+  font-size: 12px;
+}
+#judul-blog {
+  font-size: 22px;
+}
+.artikel {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
